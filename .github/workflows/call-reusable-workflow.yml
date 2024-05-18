@@ -6,6 +6,6 @@ on:
 jobs:
   call-reusable-workflow:
     secrets: inherit
-    uses: iacabezasbaculima/reusableworkflows-sandbox/.github/workflows/helloworld@main
+    uses: iacabezasbaculima/reusableworkflows-sandbox/.github/workflows/helloworld.yml@main
     with:
       who-to-greet: ${{ github.action_repository }}
